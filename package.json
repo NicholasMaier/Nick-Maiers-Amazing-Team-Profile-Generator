@@ -1,0 +1,32 @@
+{
+    "name": "nickmaiersamazingteamprofilegenerator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "EmployeeTest": "jest ./tests/Employee.test.js",
+        "EngineerTest": "jest ./tests/Engineer.test.js",
+        "InternTest": "jest ./tests/Intern.test.js",
+        "ManagerTest": "jest ./tests/Manager.test.js",
+        "watch": "jest --watchAll"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NicholasMaier/Nick-Maiers-Amazing-Team-Profile-Generator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "bugs": {
+        "url": "https://github.com/NicholasMaier/Nick-Maiers-Amazing-Team-Profile-Generator/issues"
+    },
+    "homepage": "https://github.com/NicholasMaier/Nick-Maiers-Amazing-Team-Profile-Generator#readme",
+    "dependencies": {
+        "inquirer": "^8.2.4",
+        "jest": "^29.1.2"
+    }
+}
